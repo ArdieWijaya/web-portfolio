@@ -3,7 +3,8 @@ import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import { MdFingerprint } from 'react-icons/md';
-import { FaBars, FaTimes } from 'react-icons/fa';
+import { FaBars, FaBrain, FaTimes } from 'react-icons/fa';
+import { TiCode } from 'react-icons/ti';
 import { IconContext } from 'react-icons/lib';
 
 function Navbar() {
@@ -33,8 +34,8 @@ function Navbar() {
                 <nav className='navbar'>
                     <div className='navbar-container container'>
                         <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-                            <MdFingerprint className='navbar-icon' />
-              LAVISH
+                            <TiCode className='navbar-icon' />
+              
             </Link>
                         <div className='menu-icon' onClick={handleClick}>
                             {click ? <FaTimes /> : <FaBars />}

@@ -11,6 +11,7 @@ import {
     FaWhatsapp,
     FaBrain
 } from 'react-icons/fa';
+import { TiCode } from 'react-icons/ti';
 import { MdFingerprint } from 'react-icons/md';
 
 function Footer() {
@@ -20,7 +21,7 @@ function Footer() {
                 <div className='social-media-wrap'>
                     <div className='footer-logo'>
                         <Link to='/' className='social-logo'>
-                            <FaBrain className='navbar-icon' />
+                            <TiCode className='navbar-icon' />
             </Link>
                     </div>
                     <small className='website-rights'>Ardie Wijaya Eka Putra © 2020</small>

@@ -36,10 +36,6 @@
   align-items: center;
 }
 
-.navbar-icon {
-  margin-right: 0.5rem;
-}
-
 .nav-menu {
   display: flex;
   align-items: center;
